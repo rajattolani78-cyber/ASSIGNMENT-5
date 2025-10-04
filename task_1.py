@@ -1,4 +1,4 @@
-t = input('enter student name: ')
+student_name = input('enter student name: ')
 a = {
 "Alice": 85,
 "Bob": 92,
@@ -8,7 +8,7 @@ a = {
 "Frank": 73,
 "Grace": 90
 }
-if t in a:
-    print (f"{t}'s marks :- {a[t]}")
+if student_name in a:
+    print (f"{student_name}'s marks :- {a[student_name]}")
 else :
     print('student name not found')
